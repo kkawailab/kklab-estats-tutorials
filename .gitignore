@@ -1,0 +1,39 @@
+# ===== 秘密情報 =====
+# appId を含む .env はコミットしない
+.env
+
+# ===== Python / uv =====
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# ===== スクリプトの出力データ =====
+output/
+
+# ===== LaTeX 中間生成物 =====
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.run.xml
+*.bcf
+*.listing
+# 旧ビルドのキャッシュ
+_minted*/
+*.pyg
+*.pytxcode
+
+# ビルドされた本体 PDF（図 figures/*.pdf は追跡対象に残す）
+/estats-tutorial.pdf
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
